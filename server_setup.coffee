@@ -234,7 +234,7 @@ exports.setupMiddleware = (app) ->
   setupFeaturesMiddleware app
 
  # setupCountryRedirectMiddleware app, 'china', config.chinaDomain
-  setupCountryRedirectMiddleware app, 'brazil', config.brazilDomain
+   #setupCountryRedirectMiddleware app, 'brazil', config.brazilDomain
 
   setupOneSecondDelayMiddleware app
   setupRedirectMiddleware app
